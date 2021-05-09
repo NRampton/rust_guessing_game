@@ -11,9 +11,9 @@ fn main() {
 
     loop {
 
-        let fake_number = rand::thread_rng().gen_range(1,901);
+        // let fake_number = rand::thread_rng().gen_range(1,901);
         println!("Please input your guess.");
-        println!("(You should guess {}!)", fake_number);
+        // println!("(You should guess {}!)", fake_number);
 
         let mut guess = String::new();
 

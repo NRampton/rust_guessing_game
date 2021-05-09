@@ -1,0 +1,8 @@
+1: develop guessing game in Rust
+2: incorporate WebAssembly
+    a: Number generation and comparison remain in WebAssembly
+    b: user interactions take place in JS
+3: containerize it
+4: put the whole thing on AWS
+5: use sessions -- user has to quit the app manually, otherwise it will continue to loop
+6: wasm code starts keeping stats on a session (i.e. every time you run npm start, it re-initializes the whole game, but keeps stats until you quit)
